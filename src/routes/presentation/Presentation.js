@@ -1,8 +1,5 @@
-import { useState } from 'react';
-import MainContent from '../../components/MainContent'
 import MenuColumn from '../../components/MenuColumn'
-import Header from '../../components/Header'
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 function Presentation({columnVisibility, updateColumnVisibility}) {
   const menuData = [ {

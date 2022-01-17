@@ -5,7 +5,7 @@
 // maybe possible to improve all of this with redux but not sure. Will maybe redo it once I learn redux 
 
 import Header from '../components/Header'
-import { Link, Outlet, Navigate } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 
 function Root() {

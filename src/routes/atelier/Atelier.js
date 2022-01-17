@@ -1,6 +1,5 @@
-import { useState } from 'react';
 import MenuColumn from '../../components/MenuColumn'
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 function Atelier({columnVisibility, updateColumnVisibility}) {
     const menuData = [ {

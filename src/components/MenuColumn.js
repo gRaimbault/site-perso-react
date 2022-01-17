@@ -1,11 +1,10 @@
 import '../styles/menuColumn.css';
-import { useState } from 'react';
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import SubMenu from './SubMenu'
 
 function MenuColumn({columnVisibility, updateColumnVisibility, menuData}) {
     function columnInteraction(e,visible) {
-        if(e.target.tagName!="A" && e.target.tagName!="LI" && e.target.tagName!="UL" && !e.target.classList.contains("link-arrow")) {
+        if(e.target.tagName!=="A" && e.target.tagName!=="LI" && e.target.tagName!=="UL" && !e.target.classList.contains("link-arrow")) {
             updateColumnVisibility(visible);
         }
       }
