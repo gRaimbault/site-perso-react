@@ -1,0 +1,16 @@
+#main-content-grid {
+    /*display: grid; 
+    grid-template-columns: min-content 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px;*/
+    transition: 0.5s;
+     
+}
+
+#main-content {
+    margin-left: 2vw;
+}
+
+#main-content.column-displayed{
+    margin-left: 17vw;
+}

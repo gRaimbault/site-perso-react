@@ -1,0 +1,398 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+
+
+.clear {
+	clear: both;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #555;
+}
+
+nav {
+	background-color: #5289ab;
+	border-color: #16a085;
+	padding-bottom: 20px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+p {
+	font-size: 0.875em;
+    line-height: 1.7em;
+    margin-bottom: 25px;
+}
+
+.container {
+	width: 80%;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#mainTitle {
+	float: left;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+#mainMenu {
+	font-size: 15px;
+}
+
+#mainMenu li.current-page {
+	color: #222222;
+}
+    
+#mainMenu li:hover{
+    color: #222222;
+	webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+#nav-button {
+	position: relative;
+    float: right;
+    padding: 6px 10px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+#nav-button.buttonOn {
+	background-color: #333;
+}
+
+
+#nav-button:hover {
+	background-color: #333;
+}
+
+#nav-button .icon-bar{
+	display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #fff;
+    margin-top: 4px;
+}
+
+.last-icon-bar {
+	margin-bottom: 4px;
+}
+
+h1 {
+	font-size: 1.5em;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-weight: bold;
+	color: #333;
+}
+
+h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	font-weight: bold;
+	color: #333;
+}
+
+.section-title {
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	margin-bottom: 40px;
+	padding-top: 10px;
+}
+
+#presentation {
+	background-color: #f2f2f2;
+	padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#circleImg {
+	border-radius: 50%;
+	background-image: url("../assets/img/photoFace2.jpg");
+	width: 150px;
+	height: 150px;
+	background-size: 113%;
+    background-position: 0px 48%;
+    margin: 0 auto;
+}
+
+.container-project-img-and-text {
+	text-align: center;
+}
+
+.container-project-img {
+	line-height: 300px;
+	margin: 0 auto;
+}
+
+.project-img {
+	width: 100%;
+	vertical-align: middle;
+}
+
+#aboutBlock {
+	text-align: justify;
+}
+
+#aboutBlock a:hover {
+	color: #5289ab;
+}
+
+.contact-table {
+	display: table;
+	margin: 0 auto;
+}
+
+.contact-table-row {
+	display: table-row;
+}
+
+.contact-table-type {
+	display: table-cell;
+	text-align: right;
+	padding-bottom: 20px;
+}
+
+.contact-table-content {
+	display: table-cell;
+	padding-left: 20px;
+}
+
+.contact-table-content a:hover{
+	color: #5289ab;
+}
+
+
+#projectBlock {
+	text-align: justify;
+}
+
+.project-title {
+	width: 70%;
+	margin: 0 auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+#hinaImgTitle {
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+#nopexImgTitle {
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+.work-image-and-caption {
+	margin: 0 auto;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.work-image-and-caption .image-caption {
+	font-size: 13px;
+	width: 75%;
+    margin: 0 auto;
+    display: block;
+}
+
+.work-image-and-caption img{
+	width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.work-video-and-caption {
+	text-align: center;
+	font-size: 13px;
+	margin-bottom: 30px;
+}
+
+.work-video-and-caption video {
+	margin-bottom: 5px;
+}
+
+#hinaVideo {
+	width: 100%;
+	height: 45vw;
+}
+
+#wacfVideo {
+	width: 100%;
+}
+
+.paragraph-title {
+	font-size: 23px;
+	text-decoration: underline;
+	margin-bottom: 20px;
+}
+
+
+@media (min-width : 768px) {
+	#nav-button {
+		display: none;
+	}
+
+	#mainMenu li {
+		padding: 0px 15px;
+	}
+
+	.work-image-and-caption {
+		width: 50%;
+	}
+
+	.container-project-img-and-text {
+		width: 33.3333333%;
+		float: left;
+	}
+}
+
+@media (max-width : 768px) {
+	#mainMenu {
+		clear: both;
+		border-top: solid 1px white;
+		overflow: hidden;
+		height: 100px;
+		webkit-transition: height 0.5s ease-in, border 0.5s ease-in;
+    	-o-transition: height 0.5s ease-in, border 0.5s ease-in;
+    	-ms-transition: height 0.5s ease-in, border 0.5s ease-in;
+    	-moz-transition: height 0.5s ease-in, border 0.5s ease-in;
+    	transition: height 0.5s ease-in, border 0.5s ease-in;
+	}
+
+	#mainMenu.collapse {
+		border: solid 0px white;
+		height: 1px;
+	}
+
+	#mainMenu li {
+		padding: 10px 0px;
+	}
+
+	#mainTitle {
+		width: 150px;
+	}
+
+	.container-project-img {
+		width: 100%;
+	}
+}
+
+@media (min-width : 1000px) {
+	.container-project-img {
+		height: 300px;
+	}
+}
+
+@media (min-width : 1200px) {
+
+	.section-title {
+		width: 50%;
+		margin-left: 25%;
+	}
+
+	.two-image-near {
+		float: left;
+		width: 48%;
+	}
+
+	.first-two-image-near {
+		margin-right: 20px;
+	}
+
+	.second-two-image-near {
+		float: right;
+	}
+
+	.hinaInBD2-image {
+		height: 260px;
+	}
+}
+
+.point-info-block {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.info-to-know {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.info-content {
+	display: none;
+}
+
+.dd-ul {
+	
+}
+
+#main-content {
+	transition: 0.5s;
+}

@@ -1,0 +1,49 @@
+header {
+    text-align:center;
+    z-index: 3;
+    position: relative;
+    /*height: 60px;*/
+}
+
+#sectionTitle {
+    float: right;
+    width: 180px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+header .arrow {
+    width: 6px;
+    height: 6px;
+    border: 3px solid;
+    border-color: white transparent transparent white;
+    transform: rotate(-135deg);
+    float: right;
+    transition: 0.5s;
+    margin-left: 10px; 
+    cursor: pointer;
+}
+
+.arrow.collapsed {
+    transform: rotate(-45deg);
+}
+
+#sectionSelect {
+    transition: 0.5s;
+    width: 180px;
+    height: 47px;
+    float: right;
+    clear: both;
+    overflow: hidden;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#sectionSelect.collapsed {
+    height: 1px;
+}
+
+#sectionSelect li {
+    margin-top: 6px;
+}
