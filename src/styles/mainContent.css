@@ -14,3 +14,14 @@
 #main-content.column-displayed{
     margin-left: 17vw;
 }
+
+@media (max-width : 768px) {
+
+    #main-content {
+        margin-left: 5vw;
+    }
+
+    #main-content.column-displayed{
+        margin-left: 5vw;
+    }
+}

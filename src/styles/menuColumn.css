@@ -19,7 +19,18 @@
     left: -14vw;
 }
 
+@media (max-width : 768px) {
+    .menu-column {
+        width: 100vw;
+    }
 
+    .menu-column.collapsed {
+        left: -95vw;
+    }
+    .menu-column.collapsed:hover {
+        left: -90vw;
+    }
+}
 .menu-column .arrow {
     width: 6px;
     height: 6px;

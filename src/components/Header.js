@@ -20,11 +20,11 @@ function Header() {
                 <Link id="mainTitle" to="/presentation">Guillaume Raimbault</Link>
                   
                         
-                    <div type="button" id="nav-button">
+                    {/*<div type="button" id="nav-button">
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                         <span className="icon-bar last-icon-bar"></span>
-                    </div>
+                    </div>*/}
 
                     <div className={`arrow ${sectionSelectVisibility ? "" : "collapsed"}`} onClick={()=>(updateSectionSelectVisibility(!sectionSelectVisibility))}></div>
                     <div id='sectionTitle' onClick={()=>(updateSectionSelectVisibility(!sectionSelectVisibility))}>

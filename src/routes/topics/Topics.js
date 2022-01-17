@@ -12,7 +12,6 @@ function Topics({columnVisibility, updateColumnVisibility}) {
         <div>
             <MenuColumn columnVisibility={columnVisibility} updateColumnVisibility={updateColumnVisibility} menuData={menuData}/>
             <div id="main-content" className={` ${columnVisibility ? "column-displayed" : ""}`}>
-                TOPICS
                 <Outlet/>
         
             </div>
