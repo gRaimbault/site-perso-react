@@ -12,6 +12,8 @@ function MainContent() {
                         <h1>Hi, I am Guillaume!</h1>
                         <p>Hello everybody. I’m a computer engineer graduated from the specialized master IDE (Interactive Digital Experiences : video game and multimedia) at the school of images, Gobelins, in partnership with CNAM-ENJMIN. I'm looking for opportunities in video games, virtual reality, new media technologies or artificial intelligence.</p>
                         <p>You can discover my work on this website.</p>
+                        <br/><br/>
+                        <h3>(This website is made using React, its code can be found on Github: <a href="https://github.com/gRaimbault/site-perso-react">https://github.com/gRaimbault/site-perso-react</a>)</h3>
                     </div>
                 </div>
                 <div id="projectsBlock">
